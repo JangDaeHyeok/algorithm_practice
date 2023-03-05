@@ -12,20 +12,11 @@ public class Practice1 {
     private static final int[] COIN_TYPES = {500, 100, 50, 10};
 
     public static void main(String[] args) {
-        // 시작 시간
-        long startTime = System.currentTimeMillis();
-
-        int coinCount = getCoinCount(1260);
+        int coinCount = solution(1260);
         System.out.println("동전의 개수 : " + coinCount);
-
-        // 종료 시간
-        long endTime = System.currentTimeMillis();
-        // 총 소요 시간
-        long durationTimeSec = endTime - startTime;
-        System.out.println("총 소요 시간 : " + (durationTimeSec / 1000) + "sec"); // 세컨드(초 단위 변환)
     }
 
-    private static int getCoinCount(int N) {
+    private static int solution(int N) {
         int count = 0;
 
         for(int coin : COIN_TYPES) {
