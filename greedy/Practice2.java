@@ -13,17 +13,8 @@ import java.util.Scanner;
 public class Practice2 {
 
     public static void main(String[] args) {
-        // 시작 시간
-        long startTime = System.currentTimeMillis();
-
-        int result = getResult(5, 8, 3);
+        int result = solution(5, 8, 3);
         System.out.println("가장 큰 수 : " + result);
-
-        // 종료 시간
-        long endTime = System.currentTimeMillis();
-        // 총 소요 시간
-        long durationTimeSec = endTime - startTime;
-        System.out.println("총 소요 시간 : " + (durationTimeSec / 1000) + "sec"); // 세컨드(초 단위 변환)
     }
 
     /**
@@ -34,7 +25,7 @@ public class Practice2 {
      * @param K 초과하여 더해질 수 없는 횟수 (1 <= K <= 10000)
      * @return 가장 큰 수
      */
-    private static int getResult(int N, int M, int K) {
+    private static int solution(int N, int M, int K) {
         // result
         int result = 0;
         // scanner
