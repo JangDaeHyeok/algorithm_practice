@@ -13,7 +13,7 @@ public class Dfs_Recursion {
 
 class Dfs {
 
-    // 현재 노드를 방문 처리
+    // 노드 방문 처리용 배열
     private static boolean[] visited = new boolean[9];
 
     // 각 노드가 연결된 정보를 2차원 배열로 표현
