@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Pratice1 {
 
     private static int n, m;
-    private static int[][] graph = new int[1000][1000];
+    private static final int[][] graph = new int[1000][1000];
 
     public static void main(String[] args) {
         // scanner

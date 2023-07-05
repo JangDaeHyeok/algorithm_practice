@@ -14,10 +14,10 @@ public class Dfs_Recursion {
 class Dfs {
 
     // 노드 방문 처리용 배열
-    private static boolean[] visited = new boolean[9];
+    private static final boolean[] visited = new boolean[9];
 
     // 각 노드가 연결된 정보를 2차원 배열로 표현
-    private static int[][] graph = {
+    private static final int[][] graph = {
             {}
             , {2, 3, 8}
             , {1, 7}
