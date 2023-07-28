@@ -30,7 +30,7 @@ public class Practice2 {
 
 }
 
-class Student implements Comparable<Student> {cd
+class Student implements Comparable<Student> {
 
     private String name;
     private int score;
